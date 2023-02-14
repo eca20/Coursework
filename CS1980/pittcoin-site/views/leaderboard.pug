@@ -1,0 +1,15 @@
+doctype html
+html
+    include includes/head.pug
+    body
+        header
+            h1 PittCoin Leaderboard
+            include includes/nav.pug
+        p
+        ol
+            - for(var i = 0; i < sortedBalances.length; i++)
+                li= sortedBalances[i][0]
+                    |  | 
+                    = sortedBalances[i][1]
+                    |  H2P
+        

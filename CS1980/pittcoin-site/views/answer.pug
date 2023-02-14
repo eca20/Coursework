@@ -1,0 +1,28 @@
+doctype html
+html
+  include includes/head.pug
+  body
+    header
+      h1 PittCoin Q&amp;A Forum
+      include includes/nav.pug
+  p
+    b Question: 
+    = question.text
+
+  - if(question.answer == undefined) {
+    p <b>Answer:</b>
+    textarea#answer(name="anwser" rows="8" cols="80")
+    br 
+    | Answer Reward: 100 H2P
+    br
+    input#submit(type="button" value="Submit" onclick="submitA()")
+  - } else {
+    p
+      b Answer: 
+      = question.answer
+  - }
+
+  script
+      include includes/submit.js
+  script(src="http://rawgit.com/ethereum/web3.js/0.16.0/dist/web3.min.js")
+  script(src="https://cdn.jsdelivr.net/npm/ethjs@0.3.0/dist/ethjs.min.js")
