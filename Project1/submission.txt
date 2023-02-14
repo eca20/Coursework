@@ -1,0 +1,65 @@
+
+   University of Pittsburgh
+Department of Computer Science
+
+Unauthorized access prohibited
+
+eca20@thoth.cs.pitt.edu's password: 
+Last login: Sun Jun 10 12:48:09 2018 from c-24-23-106-73.hsd1.pa.comcast.net
+
+       THIS SYSTEM IS FOR THE USE OF AUTHORIZED USERS ONLY.
+
+       Individuals using this computer system without authority, or in
+       excess of their authority, are subject to having all of their
+       activities on this system monitored and recorded by system
+       personnel.
+
+       In the course of monitoring individuals improperly using this
+       system, or in the course of system maintenance, the activities
+       of authorized users may also be monitored.
+
+       Anyone using this system expressly consents to such monitoring
+       and is advised that if such monitoring reveals possible
+       evidence of criminal activity, system personnel may provide the
+       evidence of such monitoring to law enforcement officials.
+
+(1) thoth $ ls
+Backup  Desktop    Downloads  News      private  Public     Videos
+bin     Documents  Music      Pictures  public   Templates
+(2) thoth $ cd private
+(3) thoth $ ls
+cs449  driver.c  eca20_proj1.tar.gz  graphics.h  library.c
+(4) thoth $ cp eca20_proj1.tar.gz ~jrmst106/submit/1550/
+(5) thoth $ ls ~jrmst106/submit/1550
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/els180-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/yut36-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/MUA31-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/dol24_project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/jds154-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/sir19-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/gem56-project1.tar.gz: Permission denied
+2151  2171                   eca20_proj1.tar.gz      mho8-project1.tar.gz
+2154  2174                   els180-project1.tar.gz  MUA31-project1.tar.gz
+2157  2177                   gem56-project1.tar.gz   sir19-project1.tar.gz
+2161  2181                   GMM59-project1.tar.gz   yut36-project1.tar.gz
+2164  dol24_project1.tar.gz  jds154-project1.tar.gz
+(6) thoth $ ls
+cs449     eca20_proj1.tar.gz     graphics.h
+driver.c  eca20_project1.tar.gz  library.c
+(7) thoth $ cp eca20_project1.tar.gz ~jrmst106/submit/1550/
+(8) thoth $ ls ~jrmst106/submit/1550
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/els180-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/yut36-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/MUA31-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/dol24_project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/jds154-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/sir19-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/gem56-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/GMM59-project1.tar.gz: Permission denied
+ls: cannot access /afs/pitt.edu/home/j/r/jrmst106/submit/1550/mho8-project1.tar.gz: Permission denied
+2151  2171                   eca20_proj1.tar.gz      jds154-project1.tar.gz
+2154  2174                   eca20_project1.tar.gz   mho8-project1.tar.gz
+2157  2177                   els180-project1.tar.gz  MUA31-project1.tar.gz
+2161  2181                   gem56-project1.tar.gz   sir19-project1.tar.gz
+2164  dol24_project1.tar.gz  GMM59-project1.tar.gz   yut36-project1.tar.gz
+(9) thoth $ 

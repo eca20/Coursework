@@ -1,0 +1,5 @@
+Ed,one.txt,read
+Ed,one.txt,write
+Ed,two.txt,exec
+Bill,one.txt,read
+Bill,two.txt,exec
